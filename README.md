@@ -5,7 +5,7 @@ Principles for working in a group in a iterative manner.
 ### How to start?
 
 * Start with user story mapping -> stories (everyone)
-* Then with continue feature/example mapping -> concrete examples for stories (smaller group)
+* Then continue with feature/example mapping -> concrete examples for stories (smaller group)
 * And then you can write specifications -> gherkin (PM + dev + QA)
 * Finally dive into executable specification -> cucumber (dev + QA)
 
