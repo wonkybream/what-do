@@ -26,6 +26,8 @@ Story --> Build --> Release --> Feedback --> Change --> Story --> ...
 
 ### Pairing / Mobbing
 
+[Read this: "Mob Programming Guidebook"](http://www.mobprogrammingguidebook.com/images/mobprogrammingguidebook.pdf)
+
 * Every piece of code needs be reviewed by someone else, so you’ll need to context switch to do review. You don’t need this when pairing / mobbing because it’s already reviewed.
 * Knowledge about the change/new thing is not shared or is shared very superficially (just going through the code won’t give deep insight on the change).
 * Knowledge from others is not shared to you, e.g. “we can’t change this because…” or “did you know that this is easier to implement this way”.
@@ -35,10 +37,11 @@ Story --> Build --> Release --> Feedback --> Change --> Story --> ...
 
 **If you have trouble concentrating or start getting bored while pairing/mobbing:**
 
-* Take breaks! Noone can stay focused forever. Use alarms if you need to, literally set timer for 45 minutes and then take a 5 min break.
-* Pairing is hard, but it’s also a skill. You get better at it, but it means that you need to adjust also. Learn what different methods people use for pairing.
-* Switch driver! It’s boring to watch the other person type for 2 hours. Try ping-pong: one person writes a failing test, you switch, second writes the implementation and the next failing test, you switch again.
+* Have a break! No one can stay focused forever.
+* Pairing/mobbing is difficult, it’s also a skill which your team can learn. It takes time for everyone to adjust. Learn what different methods people prefer when pairing/mobbing.
+* Switch driver! It’s boring to watch the other person type for 2 hours. Try ping-pong: Change driver every 15 minutes.
 * Don’t try to do it 100% of time. It’s exhausting. But don’t also fall into the trap of thinking that you’ll get things done faster by sitting alone.
+* Think where your team should apply this, it does not work when doing research.
 
 **Also a few things about PRs and having to do reviews (aka Why I Hate Pull Requests):**
 
@@ -46,8 +49,6 @@ Story --> Build --> Release --> Feedback --> Change --> Story --> ...
 * Reviewing PRs is really hard, especially when they arrive late. If it’s too big it’s really hard to focus on all the things that matter: design issues, making it more understandable for everyone, are we doing the right thing here, etc. If the PRs arrive too early, you miss the bigger picture unless the reviewer really knows the intent. If you decide “nah, it’s good enough”, you’re doing a bad review.
 * When people submit PRs, they mentally consider the job “done”. You’re almost certainly going to hurt someone’s feelings if you do a thorough review and if there’s a lot of comments. Having to do rework on something already “done” is straining for both the author and the reviewer. This almost never happens when sitting together, and almost always happens when working separately.
 * If you get negative / constructive criticism, next time you are going to postpone your PR even later, polishing the thing unnecessarily, because you want to do the job well to avoid the psychological pain. This doesn’t make the situation better, only worse.
-
-[Read this: "Mob Programming Guidebook"](http://www.mobprogrammingguidebook.com/images/mobprogrammingguidebook.pdf)
 
 ### Customer
 
