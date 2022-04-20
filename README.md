@@ -23,6 +23,7 @@ Story --> Build --> Release --> Feedback --> Change --> Story --> ...
 * What have we learned?
 * What can we do better?
 * What puzzles us?
+* What interrupted us?
 
 ### Reading
 
